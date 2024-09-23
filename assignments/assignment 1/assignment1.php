@@ -49,7 +49,7 @@
       <input type="text" class="form-control" id="zip" required>
     </div>
 
-    <!-- Terms and Conditions (Radio buttons) -->
+    <!-- Options (Radio buttons) -->
     <div class="col-md-12">
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="terms" id="option1" value="option1" required>
