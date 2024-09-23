@@ -37,9 +37,9 @@
     <div class="col-md-3">
       <label for="state" class="form-label">State</label>
       <select class="form-select" id="state" required>
-        <option value="MI" selected>Michigan</option> <!-- Michigan as default -->
-        <option value="NY">New York</option>
+        <option value="OH">Ohio</option>
         <option value="CA">California</option>
+        <option value="MI" selected>Michigan</option> <!-- Michigan as default -->
         <option value="TX">Texas</option>
         <option value="FL">Florida</option>
       </select>
