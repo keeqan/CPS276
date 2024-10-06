@@ -22,10 +22,10 @@ $result .= $Calculator->calc(10);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Output</title>
+    <title>Calculator Output ~~~ assignment 3</title>
 </head>
 <body>
-    <h1>Calculator Output</h1>
+    <h1>Calculator Output ~~~ assignment 3</h1>
     <main>
         <?php echo $result; ?>
     </main>
