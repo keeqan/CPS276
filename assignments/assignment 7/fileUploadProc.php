@@ -1,5 +1,5 @@
 <?php
-require 'Pdo_methods.php'; // Include your PDO methods
+require 'Pdo_methods.php'; 
 
 class FileUploadProc extends PdoMethods {
     public function processUpload() {
@@ -7,7 +7,7 @@ class FileUploadProc extends PdoMethods {
             $fileName = $_POST['fileName'];
             $pdfFile = $_FILES['pdfFile'];
 
-            // Check for errors in the uploaded file
+            // Check for errors 
             if ($pdfFile['error'] !== UPLOAD_ERR_OK) {
                 $message = "Error: File upload error code " . $pdfFile['error'];
                 header("Location: index.php?message=" . urlencode($message));
@@ -21,8 +21,8 @@ class FileUploadProc extends PdoMethods {
                 exit;
             }
 
-            // Define your upload directory and file path
-            $uploadDir = 'uploads/'; // Ensure this directory exists and is writable
+            // Define your upload directory 
+            $uploadDir = 'uploads/';
             if (!is_dir($uploadDir) || !is_writable($uploadDir)) {
                 echo "Upload directory does not exist or is not writable.";
                 exit;
@@ -63,7 +63,6 @@ class FileUploadProc extends PdoMethods {
     }
 }
 
-// Create an instance and process the upload
 $upload = new FileUploadProc();
 $upload->processUpload();
 ?>

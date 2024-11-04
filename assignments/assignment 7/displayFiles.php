@@ -1,5 +1,5 @@
 <?php
-require 'Pdo_methods.php'; // Include your PDO methods
+require 'Pdo_methods.php'; 
 
 class ListFiles extends PdoMethods {
     public function displayFiles() {
@@ -20,7 +20,6 @@ class ListFiles extends PdoMethods {
     }
 }
 
-// Create an instance and display the files when this file is included
 $listFiles = new ListFiles();
 $listFiles->displayFiles();
 ?>

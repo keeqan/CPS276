@@ -34,7 +34,6 @@ if (isset($_GET['message'])) {
     }
     ?>
 
-    <!-- Include the file that displays the uploaded PDFs -->
     <?php include 'displayFiles.php'; ?>
 </div>
 </body>
