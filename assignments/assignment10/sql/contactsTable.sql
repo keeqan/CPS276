@@ -1,0 +1,12 @@
+CREATE TABLE contacts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    state VARCHAR(50) NOT NULL,
+    phone VARCHAR(12) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    dob DATE NOT NULL,
+    contacts TEXT,
+    age VARCHAR(50) NOT NULL
+);
